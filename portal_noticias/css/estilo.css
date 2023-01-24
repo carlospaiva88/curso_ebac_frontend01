@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: blanchedalmond;
+}
+body > header{
+    background-color:rgba(0, 0, 0, 0.798);
+    padding: 16px 0;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header li{
+    display: inline;
+}
+header li a {
+    color: #fff;
+    text-decoration: none;
+    margin: 5px;
+    text-transform: uppercase;
+}
+.container{
+    width: 1366px;
+    margin: auto;
+
+}
+
+.articles{
+display: flex;
+justify-content: space-between;
+
+}
+.articles article img{
+    width: 100%;
+}
+.articles article {
+    width: 30%;
+}
+section{
+    padding: 16px;
+}
+
+section h2,
+.articles article{
+margin-bottom: 16px;
+text-transform: uppercase;
+}
+
+.articles article h3{
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+.articles article a {
+    background-color: rgb(24, 22, 27);
+    color: antiquewhite;
+    padding: 8px;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 8px;
+    text-decoration: none;
+}
+.articles article p,
+.articles article a {
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.articles article a:hover{
+    background-color: rgb(33, 22, 49);
+    
+}
+.articles article h3{
+    font-size: 21px;
+}
+section h2{
+    font-size: 28px;
+}
+
