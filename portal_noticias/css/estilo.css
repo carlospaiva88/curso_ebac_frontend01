@@ -4,9 +4,7 @@
     box-sizing: border-box;
 
 }
-body{
-    background-color: blanchedalmond;
-}
+
 body > header{
     background-color:rgba(0, 0, 0, 0.798);
     padding: 16px 0;
@@ -83,3 +81,39 @@ section h2{
     font-size: 28px;
 }
 
+#sports {
+    background-color: blanchedalmond;
+}
+#sports .articles a{
+   background-color:rgb(40, 13, 66) ;
+}
+#sports .articles a:hover{
+    background-color:rgb(58, 30, 84) ;
+}
+#tecnology{
+    background-color: rgb(212, 212, 188);
+}
+#tecnology .articles a{
+    background-color: rgb(37, 31, 43);
+}
+#tecnology .articles a:hover{
+    background-color: rgb(66, 49, 83);
+}
+#entertainment{
+    background-color: rgb(245, 189, 189);
+}
+#entertainment .articles a{
+    background-color: rgb(126, 11, 72);
+}
+#entertainment .articles a:hover{
+    background-color: rgb(172, 38, 109);
+}
+#economy{
+    background-color: rgb(232, 218, 138);
+}
+#economy .articles a{
+    background-color: rgb(123, 96, 25);
+}
+#economy .articles a:hover{
+    background-color: rgb(143, 122, 69); 
+}
